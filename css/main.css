@@ -1,0 +1,346 @@
+* {
+	box-sizing: border-box;
+}
+
+body, html, #weather, main {
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.weathermain, .windinfo {
+	background-image: url("../img/backgroundimage1.1.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* header */
+
+.topbar {
+	height: 10%;
+	background-color: #1d2b5a;
+	padding: 0rem 5%;
+	overflow: hidden;
+}
+
+.topbar .left, .topbar .right {
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+.topbar img {
+	height: 4rem;
+	position: relative;
+	top: 50%;
+	transform:translateY(-50%);
+	margin: 0;
+}
+
+.topbar h3 {
+	color: #ffffff;
+	font-size: .8rem;
+	text-align: right;
+	position: relative;
+	top: 50%;
+	transform:translateY(-50%);
+	margin: 0;
+}
+
+@media screen and (min-width:40rem) {
+
+	.topbar img {
+		height: 6rem;
+	}
+
+	.topbar h3 {
+		font-size: 1.3rem;
+	}
+
+
+}
+
+/* weather main */
+
+.weathermain {
+	height: 50%;
+	padding: 0rem 5%;
+	overflow: hidden;
+	border-bottom: 6px dashed #1d2b5a;
+}
+
+.weathermain .icon {
+	font-size: 11rem;
+	color:#9c9c9c;
+}
+
+.weathermain h1 {
+	font-size: 5rem;
+	margin: 0;
+	color:#1d2b5a;
+}
+
+.weathermain h1 span {
+	position: absolute;
+	top: 3%;
+}
+
+.weathermain h3 {
+	font-size: 1.5rem;
+	margin: 0;
+	text-transform: uppercase;
+	color:#1d2b5a;
+}
+
+.weathermain p {
+	font-size: 1rem;
+	margin: 0;
+	color: #dd2229;
+}
+
+.weathermain .fa-arrow-up,.weathermain .fa-arrow-down {
+	color:#dd2229;
+}
+
+.wdata8 {
+	font-weight: 700;
+}
+
+.wdata8 span {
+	font-weight: 400;
+}
+
+.weathermain h2 {
+	margin: .5rem 0rem;
+	color:#2f4f4f;
+	font-size: 1.3rem;
+}
+
+.weathermain .wdata6, .weathermain .wdata7 {
+	display: inline-block;
+	padding: 0rem .5rem;
+}
+
+.weathermain .left, .weathermain .right {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.weathermain .left {
+	position: relative;
+	top: 50%;
+	transform:translateY(-50%);
+}
+
+.weathermain .right {
+	position: relative;
+	top: 50%;
+	transform:translateY(-50%);
+}
+
+@media screen and (min-width: 23.4rem) {
+
+	.weathermain .icon {
+		font-size: 14rem;
+	}
+
+	.weathermain h1 {
+		font-size: 5.5rem;
+	}
+
+	.weathermain p {
+		font-size: 1.2rem;
+		margin: 0;
+		color: #dd2229;
+	}
+
+	.weathermain h3 {
+		font-size: 1.8rem;
+	}
+
+}
+
+@media screen and (min-width:40rem) {
+
+	.weathermain {
+		border-bottom: 10px dashed #1d2b5a;
+	}
+
+	.weathermain h1 {
+		font-size: 9rem;
+	}
+
+	.weathermain .icon {
+		font-size: 23rem;
+	}
+
+	.weathermain p {
+		font-size: 2rem;
+	}
+
+	.weathermain .fa-arrow-up,.weathermain .fa-arrow-down {
+		font-size: 2rem;
+	}
+
+	.weathermain h3 {
+		font-size: 2.8rem;
+	}
+
+	.weathermain h2 {
+		font-size: 1.8rem;
+	}
+
+	.weathermain .left {
+		padding-top: 0;
+	}
+
+
+}
+
+/* wind */ 
+
+.windinfo {
+	height: 30%;
+	padding: 0rem 5%;
+	overflow: hidden;
+	z-index: -1;
+}
+
+.windinfo h2{
+	font-size: 1.3rem;
+	margin: 0;
+	color:#1d2b5a;
+}
+
+.windinfo h2 span{
+	color:#dd2229;
+}
+
+.windinfo h3 {
+	margin: .5rem 0rem;
+	font-weight: 700;
+	color:#2f4f4f;
+}
+
+.windinfo h3 span{
+	font-weight: 400;
+}
+
+.windinfo h4 {
+	font-size: 6rem;
+	margin: 0;
+	color:#9c9c9c;
+	display: block;
+	text-align: center;
+}
+
+.windinfo .left, .windinfo .right {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+
+.windinfo .left, .windinfo .right{
+	position: relative;
+	top: 50%;
+	transform:translateY(-50%);
+}
+
+@media screen and (min-width: 23.4rem) {
+
+	.windinfo h4 {
+		font-size: 7rem;
+		margin: 0;
+		color:#9c9c9c;
+		display: block;
+		text-align: center;
+	}
+
+}
+
+
+@media screen and (min-width:40rem) {
+	
+	.windinfo h2{
+		font-size: 2.5rem;
+	}
+
+	.windinfo h3{
+		font-size: 2rem;
+	}
+
+
+	.windinfo h4 {
+		font-size: 11rem;
+	}
+
+}
+
+/* bottom */
+
+
+.bottom {
+	height: 10%;
+	background-color: #1d2b5a;
+	padding: 0rem 5%;
+	overflow: hidden;
+}
+
+.bottom .left, .bottom .right {
+	float: left;
+	width: 50%;
+}
+
+.bottom .left, .bottom .right {
+	position: relative;
+	top: 50%;
+	transform:translateY(-50%);
+}
+
+.bottom h3 {
+	margin: .5rem 0rem;
+	font-weight: 700;
+	color:#ffffff;
+	text-align: right;
+}
+
+.bottom h3 span{
+	font-weight: 400;
+}
+
+.bottom .fa {
+	text-align: left;
+	display: block;
+	color: #ffffff;
+	font-size: 1.3rem;
+}
+
+@media screen and (min-width: 40rem) {
+
+	.bottom h3 {
+		font-size: 2rem;
+	}
+
+	.bottom .fa {
+		font-size: 2.3rem;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
