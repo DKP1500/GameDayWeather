@@ -83,6 +83,7 @@ body, html, #weather, main {
 .weathermain h1 span {
 	position: absolute;
 	top: 3%;
+	font-size: 5rem;
 }
 
 .weathermain h3 {
@@ -169,6 +170,12 @@ body, html, #weather, main {
 
 	.weathermain h1 {
 		font-size: 9rem;
+	}
+
+	.weathermain h1 span {
+		position: absolute;
+		top: 5%;
+		font-size: 8rem;
 	}
 
 	.weathermain .icon {
