@@ -8,7 +8,7 @@ body, html, #weather, main {
 }
 
 .weathermain, .windinfo {
-	background-image: url("../img/backgroundimage1.1.svg");
+	background-image: url("../img/backgroundimage1.1.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
