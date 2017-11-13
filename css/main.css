@@ -84,6 +84,7 @@ body, html, #weather, main {
 	position: absolute;
 	top: 3%;
 	font-size: 5rem;
+	color: red;
 }
 
 .weathermain h3 {
