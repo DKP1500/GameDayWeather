@@ -175,7 +175,7 @@ body, html, #weather, main {
 	.weathermain h1 span {
 		position: absolute;
 		top: 5%;
-		font-size: 8rem;
+		font-size: 5rem;
 	}
 
 	.weathermain .icon {
