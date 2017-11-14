@@ -32,7 +32,7 @@ reallySimpleWeather.weather({
     html += '<p class="wdata6">'+weather.high+' &deg; |</p>';
     html += '<i class="fa fa-arrow-down" aria-hidden="true"></i>';
     html += '<p class="wdata7">'+weather.low+' &deg;</p>';
-    html += '<h2 class="wdata8"> <span>Humidity</span> '+weather.humidity+'&deg;</h2>';
+    html += '<h2 class="wdata8"> <span>Humidity</span> '+weather.humidity+'</h2>';
     html += '</div>';
     html += '</section>';
 
