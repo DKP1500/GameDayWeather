@@ -128,13 +128,7 @@ body, html, #weather, main {
 	text-align: center;
 }
 
-.weathermain .left {
-	position: relative;
-	top: 50%;
-	transform:translateY(-50%);
-}
-
-.weathermain .right {
+.weathermain .left, .weathermain .right {
 	position: relative;
 	top: 50%;
 	transform:translateY(-50%);
